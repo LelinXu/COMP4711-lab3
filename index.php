@@ -23,6 +23,7 @@ and open the template in the editor.
         $first->add_grade(65); 
         $first->add_grade(75); 
         $first->add_grade(55); 
+        $first->status="：Freshman";
         $students['j123'] = $first; 
         
         $second = new Student(); 
@@ -34,6 +35,7 @@ and open the template in the editor.
         $second->add_grade(95);
         $second->add_grade(80); 
         $second->add_grade(50);
+        $second->status="：Junior";
         $students['a456'] = $second;
         
         $third = new Student();
@@ -43,6 +45,7 @@ and open the template in the editor.
         $third->add_grade(100);
         $third->add_grade(100); 
         $third->add_grade(100);
+         $third->status="：Senior";
         $students['x789'] = $third;
         
          ksort($students);
